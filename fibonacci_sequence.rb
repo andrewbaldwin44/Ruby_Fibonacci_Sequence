@@ -4,7 +4,8 @@ def fibonacci(n)
   end
 end
 
-p fibonacci(10)
+print fibonacci(10)
+puts
 
 def fibonacci_rec(n)
   case n
@@ -15,4 +16,5 @@ def fibonacci_rec(n)
   end
 end
 
-p fibonacci_rec(10)
+print fibonacci_rec(9)
+puts
